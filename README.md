@@ -6,4 +6,4 @@ Este repositorio eh referente ao TDE1, ou seja, lista de exercicios.
 
 Professor: RODRIGO DA CRUZ FUJIOKA
 
-Versao 1.0
+Versao: 1.1
