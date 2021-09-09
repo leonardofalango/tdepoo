@@ -23,11 +23,13 @@ Voce ainda pode utilizar-se de metodos desse objeto.
 
 2. Qual a relação entre Encapsulamento e Abstração?
 
-R: Encapsulamento eh "esconder" uma ideia, ou seja torna-la privada. Para alterar ou acessar informacoes privadas sao usados metodos "Getters and Setters"
+R: Encapsulamento eh "esconder" uma ideia, ou seja torna-la privada. Para alterar ou acessar informacoes privadas sao usados metodos "Getters and Setters".
+Uma classe deve especificar quais dos seus atributos e métodos e se são visíveis por outras classes.
+
 Ex:
 
 Public Class Carro {
-    private String motor
+    private String motor /* NAO EH ACESSIVEL, a nao ser com Get/Set */
     private String modelo
     private int ano
 }
