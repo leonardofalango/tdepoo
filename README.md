@@ -6,4 +6,6 @@ Este repositorio eh referente ao TDE1, ou seja, lista de exercicios.
 
 Professor: RODRIGO DA CRUZ FUJIOKA
 
-Versao: 1.1
+Nome dos arquivos meramente representativos dentro do GitHub.
+
+Meu teclado tem o layout "US", portando nao pussui acentos graficos, acentos graficos desconsiderados ou substituido pela letra "h".
