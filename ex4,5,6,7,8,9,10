@@ -1,0 +1,94 @@
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Exercicio 4
+
+4. Private, Public, Static , diga para que serve cada modificador deste?
+
+R: Private, serve para esconder informcoes a nivel de classe, APENAS a classe pode modificar e acessar as informacoes com private.
+Public, serve para declarar que as informacoes podem ser acessadas a nivel de  Mundo, Classe, Subclasse e Package.
+Protected, serve para declarar que as informacoes podem ser acessadas a nivel de Classe, Subclasse e Package.
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Ecercicio 5
+
+5. Descreva todos os passos da criação até a execução de um programa escrito em Java.
+
+R: Primeiro passo abrir a IDE, criar um Package e por fim criar uma Java Class.
+Para rodar um programa em Java, tambem eh necessario que dentro da sua Java Class possua uma funcao main()
+Sintaxe da funcao main():
+
+public static void main(String[] args) {            
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Exercicio 6
+
+6. JVM, JDK e JRE para que servem?
+
+R: JMV: Java Virtual Machine, um programa que carrega e executa os aplicativos Java.
+JDK: Java Development Kit, eh um pacote que você pode usar para desenvolver aplicativos Java.
+JRE: Java Runtime Environment, eh um ambiente que executa um programa Java.
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Exercicio 7
+
+7. Informe o que você entende com relação a Classes e Objetos? O que é que define o comportamento e o estado dos mesmos?
+
+R: Classe, junta objetos que compartilham os mesmos atributos e métodos. Cada objeto instacia uma classe.
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Exercicio 8
+
+8. Como é realizada a declaração de uma Classe Java? Existe alguma regra com relação a nomenclatura?
+
+R:  Letra maiuscula no comeco das palavras
+Ex:
+
+public class TdeEx8 {
+    public String ex = "exemplo";
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Exercicio 9
+
+9. O que é Javadoc? Para que serve? Mostre um Exemplo.
+
+R: Gerador de documentacao para documentar a API dos programas em Java.
+Ex:
+
+
+/**Classe para objetos do tipo Carro, onde serao contidos, valores e metodos para o mesmo.
+*@author Leonardo Scanavacca Falango
+*@version 2.3
+*@since Release da aplicacao
+*/
+
+public class Carro {
+    private String motor;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Exercicio 10
+
+10.Fale sobre o ciclo de vida dos Objetos.
+
+R:
+
+
+
+
+
+
+
+
+
+
+
+
+
