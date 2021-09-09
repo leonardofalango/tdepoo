@@ -1,0 +1,38 @@
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Exercicio 1
+
+1. Defina Abstração, qual a sua utilidade?
+
+R: Abstracao eh utilizada para definicao de entidades no mundo real, as classes sao criadas com isso. Por exemplo:
+Ex: Abstracao de carro -> 
+
+Public Class Carro {
+    public String motor
+    public String modelo
+    public int ano
+}
+
+Dentro da classe "Carro" voce se utiliza de atributos, ou seja propriedades desse objeto.
+Voce ainda pode utilizar-se de metodos desse objeto.
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Exercicio 2
+
+2. Qual a relação entre Encapsulamento e Abstração?
+
+R: Encapsulamento eh "esconder" uma ideia, ou seja torna-la privada. Para alterar ou acessar informacoes privadas sao usados metodos "Getters and Setters"
+Ex:
+
+Public Class Carro {
+    private String motor
+    private String modelo
+    private int ano
+}
+
+Para acessar as informacoes do modelo, motor e ano eh necessario utilizar o metodo Get, e para modificar as informacoes o metodo Set.
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
