@@ -78,17 +78,24 @@ public class Carro {
 
 10.Fale sobre o ciclo de vida dos Objetos.
 
-R:
+R:  Primeiro a classe deve ser carregada. Depois Java procura iniciadores estaticos.Entao Java chama a classe construtor, que eh um metodo, mas eh chamado apenas uma vez.
+O objeto vive sua vida, proporcionando acesso a seus metodos publicos e campos para quem quer e precisa deles. Por ultimo, o fim da vida do objeto ele eh apagado da memoria.
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+#Exercicio 11
 
+11.O que é Garbage Colector? Para que serve?
 
+R: Lixeira, usado para a automacao do gerenciamento de memoria.
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+#Exercicio 12
 
+12.Comente a afirmativa “Em java o programador tem que se preocupar em liberar a memória quando estiver programando”.
 
+R: Isso serve para disponibilizar mais memoria para outros programas.
 
-
-
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
