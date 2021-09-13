@@ -13,8 +13,9 @@ public class TdeEx17 {
         Scanner scnr = new Scanner(System.in);
 
         System.out.println("Entre com os dados: ");
-        frase = scnr.nextLine() + conc;
         i = frase.length();
+        frase = scnr.nextLine() + conc;
+        
         System.out.println("A frase escolhida foi:\n" + frase + "\nA quantidade de caracteres dessa String:\n" + i);
 
     }
