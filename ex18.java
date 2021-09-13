@@ -1,6 +1,8 @@
 /*
 #Exercicio 18
+
 18.Crie uma nova String, pegando o pedaço da primeira String que compreenda a frase “Exemplo String”.
+
 */
 
 //import java.util.Scanner
