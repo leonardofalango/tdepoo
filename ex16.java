@@ -1,6 +1,6 @@
 /*
-#Exercicio 15
-15.Implemente um programa que receba dados digitados pelo usuário e atribua a uma variável do tipo String e imprima a frase inserida no console.
+#Exercicio 16
+16.Concatene na variável criada acima a frase “ – Exemplo String”.
 */
 
 //import java.util.Scanner
