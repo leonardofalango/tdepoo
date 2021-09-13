@@ -2,6 +2,7 @@
 #Exercicio 17
 
 17.Imprima na tela (console) o número de caracteres da String.
+
 */
 
 //import java.util.Scanner;
