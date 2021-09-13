@@ -8,20 +8,19 @@
 //import java.util.Scanner
 
 
-public class TdeEx18 {
+public class TdeEx19 {
     public static void main(String[] args) throws IOException, InterruptedException {
-        String frase, conc = "–Exemplo String",str = " Exemplo string";
-        int i;
+        int numero;
         Scanner scnr = new Scanner(System.in);
 
-        System.out.println("Entre com os dados: ");
+        System.out.println("Entre com um numero: ");
+        numero = scnr.nextInt();
 
-        frase = scnr.nextLine();
-        frase += str;
-        i = frase.length();
-        frase = frase + conc;
-
-        System.out.println("A frase escolhida foi:\n" + frase + "\nA quantidade de caracteres dessa String:\n" + i);
-
+        if(numero < 15 || numero > 100){
+            System.out.println("O numero " +numero+" eh maior que 100 ou menor que 15");
+        }
+        else{
+            System.out.println("O numero "+numero+ " esta entre 15 e 100");
+        }
     }
 }
