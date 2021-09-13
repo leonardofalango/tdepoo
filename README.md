@@ -10,4 +10,6 @@ Nome dos arquivos meramente representativos dentro do GitHub.
 
 Meu teclado tem o layout "US", portando nao pussui acentos graficos, acentos graficos desconsiderados ou substituido pela letra "h".
 
+Todos os imports foram desconsiderados, porem, foram comentados para que voce consiga saber a biblioteca que estamos usando.
+
 Professor: RODRIGO DA CRUZ FUJIOKA
