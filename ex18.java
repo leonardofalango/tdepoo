@@ -10,15 +10,18 @@
 
 public class TdeEx18 {
     public static void main(String[] args) throws IOException, InterruptedException {
-        String frase, conc = "–Exemplo String", str = "Exemplo string";
+        String frase, conc = "–Exemplo String",str = " Exemplo string";
+        int i;
         Scanner scnr = new Scanner(System.in);
-        int i = 0;
 
         System.out.println("Entre com os dados: ");
-        frase = scnr.nextLine() + str;
+
+        frase = scnr.nextLine();
+        frase += str;
         i = frase.length();
         frase = frase + conc;
-        System.out.printf("A frase escolhida foi:\n %s",frase);
-        System.out.printf("A frase escolhida possui:\n%i Caracteres", i );
+
+        System.out.println("A frase escolhida foi:\n" + frase + "\nA quantidade de caracteres dessa String:\n" + i);
+
     }
 }
