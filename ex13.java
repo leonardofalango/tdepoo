@@ -2,6 +2,7 @@
 #Exercicio 13
 
 13.Declare três variáveis com tipos diferentes, sem atribuir valor. Depois atribua um valor qualquer a elas com dados digitados pelo usuário.
+
 */
 
 
