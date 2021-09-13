@@ -1,7 +1,11 @@
-
+/*
+#Exercicio 22
 
 22.Agora compare se o valor das duas variáveis acima é igual.
 
+*/
+
+//import java.util.Scanner;
 
 public class TdeEx22 {
     public static void main(String[] args) throws IOException, InterruptedException {
