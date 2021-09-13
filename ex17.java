@@ -1,0 +1,22 @@
+/*
+#Exercicio 17
+
+17.Imprima na tela (console) o número de caracteres da String.
+*/
+
+//import java.util.Scanner;
+
+public class TdeEx17 {
+    public static void main(String[] args) throws IOException, InterruptedException {
+        String frase, conc = "Exemplo String";
+        int i;
+        Scanner scnr = new Scanner(System.in);
+
+        System.out.println("Entre com os dados: ");
+        frase = scnr.nextLine() + conc; //Para colocar espaco entre "Exemplo String" e a frase de entrada do usr, basta colocar "+' '+" entre o scnr e a variavel conc.
+        i = frase.length();
+        System.out.println("A frase escolhida foi:\n" + frase + "\nA quantidade de caracteres dessa String:\n" + i);
+
+    }
+}
+
