@@ -8,7 +8,7 @@
 
 public class TdeEx17 {
     public static void main(String[] args) throws IOException, InterruptedException {
-        String frase, conc = " Exemplo String";
+        String frase, conc = "–Exemplo String";
         int i;
         Scanner scnr = new Scanner(System.in);
 
