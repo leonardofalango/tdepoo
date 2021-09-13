@@ -1,5 +1,5 @@
 /*
-#Ex 19
+#Exercicio 19
 
 19.Calcule o resto da divisão de 99 por 4
 
