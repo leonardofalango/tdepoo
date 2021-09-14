@@ -3,7 +3,7 @@
 
 27.Faça um programa para ler um número do teclado e imprimir na tela se ele é par ou ímpar. Imprima também se ele é primo.
 
-/*
+*/
 
 public class TdeEx27 {
     public static void main(String[] args) {
