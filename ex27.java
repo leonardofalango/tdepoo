@@ -5,6 +5,8 @@
 
 */
 
+//import java.util.Scanner;
+
 public class TdeEx27 {
     public static void main(String[] args) {
         int contador=0, numero = 0, i;
