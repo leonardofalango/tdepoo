@@ -8,7 +8,7 @@
 
 //import java.util.Scanner;
 
-public class TdeEx26 {
+public class TdeEx31 {
     public static void main(String[] args) {
         int hora;
         float salario;
